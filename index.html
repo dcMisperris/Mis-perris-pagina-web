@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="fonts/style.css">
+
+    <link rel="stylesheet" href="css/flexboxgrid.css">
+    <link rel="stylesheet" href="css/Slider.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/scripReg.js"></script>
+    
+    <title>MisPerris</title>
+</head>
+
+<body>
+
+    <section class="container-fluid">
+
+        <header class="row ">
+
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4" id="fondologo">
+                <img src="img/logo.png" alt="logo">
+            </div>
+            <nav id="fondonav" class="col-xs-12 col-sm-6 col-md-8 col-lg-8 ">
+                <ul id="menu" class="row center-xs start-md">
+                    <li>
+                        <a class="prue" href="#">inicio </a>
+                    </li>
+                    <li>
+                        <a class="prue" href="#conocenos">quienes somos </a>
+                    </li>
+                    <li>
+                        <a class="prue" href="#">servicios </a>
+                    </li>
+                    <li>
+                        <a class="prue" href="#registro">contactanos </a>
+                    </li>
+                </ul>
+
+            </nav>
+        </header>
+
+
+
+        <section class="row center-xs imag">
+            <section class="col-xs-12">
+                <div id="contenedor-slider" class="contenedor-slider">
+                    <div id="slider" class="slider">
+                        <section class="slider__section">
+                            <img src="img/perro.png" class="slider__img" alt="Rescate" width="800" height="400">
+                        </section>
+                        <section class="slider__section">
+                            <img src="img/adoptados/Duque.jpg" class="slider__img" alt="Rescate" width="800" height="400">
+                        </section>
+                        <section class="slider__section">
+                            <img src="img/adoptados/Tom.jpg" class="slider__img" alt="Rescate" width="800" height="400">
+                        </section>
+
+                    </div>
+                    <div id="btn-prev" class="btn-prev">&#60;</div>
+                    <div id="btn-next" class="btn-next">&#62;</div>
+                </div>
+            </section>
+
+        </section>
+        <script src="js/slider.js"> </script>
+
+        <aside class="row fondosect">
+            <section class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <ul class="row center-xs start-md contacto">
+                    <li>
+                        <a href="#">+56967268185 </a>
+                    </li>
+
+
+                </ul>
+            </section>
+
+            <section class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <ul class="row center-xs start-md contacto">
+                    <li>
+                        <a href="#">Rescate y adopcion de perros callejeros</a>
+                    </li>
+
+                </ul>
+            </section>
+
+
+            <section class="col-xs-12 col-sm-12 col-md-4 col-lg-4 ">
+                <ul class="row center-xs end-md" id="icons">
+
+                    <li class="circulo">
+                        <a class="icon-facebook" href="https://www.facebook.com/"> </a>
+                    </li>
+                    <li class="circulo">
+                        <a class="icon-google" href="#"></a>
+                    </li>
+                    <li class="circulo">
+                        <a class="icon-instagram" href="https://www.instagram.com/?hl=es-la"></a>
+                    </li>
+                    <li class="circulo">
+                        <a class="icon-mail3" href="https://www.instagram.com/?hl=es-la"></a>
+                    </li>
+                </ul>
+            </section>
+            <br/>
+            <br/>
+        </aside>
+
+
+        <section class="row">
+
+            <article class="col-xs-12 col-sm-6 col-md-6 col-lg-6" id="moverisq">
+                <a name="conocenos"></a>
+                <a name="fin"></a>
+                <H1>RESCATE</H1>
+                <br/>
+                <h5 class="textoPlomo">ETAPA UNO</h5>
+                <br/>
+                <h2 class="textoPlomo">_____</h2>
+                <br/>
+                <p class="textoPlomo">Rescatamos perros en situacion de peligro y/o abandono. Los rehabilitamos y los preparamos para buscarle
+                    un hogar</p>
+                <br/>
+                <br/>
+                <img src="img/rescate.jpg" alt="perro" width="250" height="125">
+
+
+            </article>
+            <article class="col-xs-12 col-sm-6 col-md-6 col-lg-6" id="moverder">
+                <img src="img/crowfunding.jpg" alt="foto" width="250" height="200">
+                <br/>
+                <H1>CROWFUNDING</H1>
+                <br/>
+                <h5 class="textoPlomo">FINANCIAMINETO</h5>
+                <br/>
+                <h2 class="textoPlomo">______</h2>
+                <br/>
+                <p class="textoPlomo">Sigue nuestras redes sociales para informarte acerca de las diversas campañas y actividades que realizamos
+                    para obtener Financiamiento y seguir ayudando </p>
+                <br>
+                <br>
+                <input class="boton2" type="button" id="boton" value="CAMPAÑAS">
+            </article>
+
+        </section>
+
+
+    </section>
+    <div class="row center-xs galerias">
+
+        <div class="col-xs-4 col-lg-1 galeria estilo1">
+            <a href="#img1">
+                <img src="img/rescatados/Oso.jpg" alt="galeria">
+            </a>
+            <a href="#img2">
+                <img src="img/rescatados/Maya.jpg" alt="galeria">
+            </a>
+            <a href="#img3">
+                <img src="img/rescatados/Wifi.jpg" alt="galeria">
+            </a>
+        </div>
+        <div class="col-xs-4 col-lg-1 galeriaC">
+            <a href="#img4">
+                <img src=" img/rescatados/Chocolate.jpg" alt="galeria">
+            </a>
+            <a href="#img5">
+                <img src="img/rescatados/Pexel.jpg" alt="galeria">
+            </a>
+        </div>
+        <div class="col-xs-4 col-lg-1 galeriaD">
+            <a href="#img6">
+                <img src=" img/rescatados/Bigotes.jpg " alt="galeria">
+            </a>
+            <a href="#img7">
+                <img src=" img/rescatados/Luna.jpg" alt="galeria">
+            </a>
+        </div>
+
+
+    </div>
+    <div class="modal" id="img1">
+        <h3>Perros Rescatados</h3>
+        <div class="imagen">
+            <a href="#img6">&#60;</a>
+            <a href="#img2">
+                <img src="img/rescatados/Oso.jpg" alt="galeria">
+            </a>
+            <a href="#img2">></a>
+        </div>
+        <a class="cerrar" href="">X</a>
+    </div>
+
+    <div class="modal" id="img2">
+        <h3>Perros Rescatados</h3>
+        <div class="imagen">
+            <a href="#img1">&#60;</a>
+            <a href="#img3">
+                <img src="img/rescatados/Maya.jpg" alt="galeria">
+            </a>
+            <a href="#img3">></a>
+        </div>
+        <a class="cerrar" href="">X</a>
+    </div>
+
+    <div class="modal" id="img3">
+        <h3>Perros Rescatados</h3>
+        <div class="imagen">
+            <a href="#img2">&#60;</a>
+            <a href="#img4">
+                <img src="img/rescatados/Wifi.jpg" alt="galeria">
+            </a>
+            <a href="#img4">></a>
+        </div>
+        <a class="cerrar" href="">X</a>
+    </div>
+
+    <div class="modal" id="img4">
+        <h3>Perros Rescatados</h3>
+        <div class="imagen">
+            <a href="#img3">&#60;</a>
+            <a href="#img1">
+                <img src="img/rescatados/Chocolate.jpg" alt="galeria">
+            </a>
+            <a href="#img5">></a>
+        </div>
+        <a class="cerrar" href="">X</a>
+    </div>
+    <div class="modal" id="img5">
+        <h3>Perros Rescatados</h3>
+        <div class="imagen">
+            <a href="#img4">&#60;</a>
+            <a href="#img6">
+                <img src="img/rescatados/Pexel.jpg" alt="galeria">
+            </a>
+            <a href="#img6">></a>
+        </div>
+        <a class="cerrar" href="">X</a>
+    </div>
+    <div class="modal" id="img6">
+        <h3>Perros Rescatados</h3>
+        <div class="imagen">
+            <a href="#img5">&#60;</a>
+            <a href="#img7">
+                <img src=" img/rescatados/Bigotes.jpg" alt="galeria">
+            </a>
+            <a href="#img1">></a>
+        </div>
+        <a class="cerrar" href="">X</a>
+    </div>
+    <div class="modal" id="img7">
+        <h3>Perros Rescatados</h3>
+        <div class="imagen">
+            <a href="#img6">&#60;</a>
+            <a href="#img1">
+                <img src=" img/rescatados/Luna.jpg" alt="galeria">
+            </a>
+            <a href="#img1">></a>
+        </div>
+        <a class="cerrar" href="">X</a>
+    </div>
+
+
+
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="ezquinas">
+
+            <form id="registro" action="" method="POST">
+                <label class="diseñolabel" for="correo">Correo:</label>
+                <input type="email" id="Correo" class="diseños" name="correo" placeholder="ej: Ejemplo@alumnos.duoc.cl" required>
+                <br>
+                <br>
+                <label class="diseñolabel" for="rut">Rut:</label>
+                <input type="text" name="rut" placeholder="rut" class="diseños" required>
+                <br>
+                <br>
+                <label class="diseñolabel" for="nombre">Nombre:</label>
+                <input type="text" name="nombre" placeholder="Nombre y Apellido" class="diseños" required>
+                <br>
+                <br>
+                <label class="diseñolabel" for="fechaNacimiento">Fecha de Nacimiento:</label>
+                <input type="date" name="fecha" id="fecha" min="1900-01-01" max="2018-12-31" class="diseños" value="20" required>
+                <h6>(Año anterior al 2001)</h6>
+                <br>
+                <br>
+                <label class="diseñolabel" for="numero">Telefono de contacto:</label>
+                <input type="number" name="numero" placeholder="numero" class="diseños" required>
+                <br>
+                <br>
+                <label class="diseñolabel" for="region">Region:</label>
+                <select id="regiones" class="diseños"></select>
+                <br>
+                <br>
+                <label class="diseñolabel" for="comunas">Comunas:</label>
+                <select class="diseños" id="comunas"></select>
+                <br>
+                <br>
+                <label class="diseñolabel" for="tipoVivienda">Tipo de Vivienda</label>
+                <select name="tipoVivienda" class="diseños">
+                    <option value="0">Casa con patio grande</option>
+                    <option value="1">casa con patio pequeño</option>
+                    <option value="2">casa sin patio</option>
+                    <option value="3">Departamento</option>
+                </select>
+                <br>
+                <br>
+
+                <button>Enviar</button>
+            </form>
+
+        </div>
+    </div>
+
+
+
+    <div class="row">
+        <footer class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="piedepaguina">
+
+            <PRE>Desarrollo web y movile</pre>
+        </footer>
+    </div>
+
+   
+
+</body>
+
+</html>

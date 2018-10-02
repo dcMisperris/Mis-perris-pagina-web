@@ -1,0 +1,397 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#fondologo{
+    
+    background: rgb(53, 185, 146);
+    
+  
+}
+#fondonav{
+    
+    background: rgb(53, 185, 146);
+    
+    
+}
+.textoPlomo{
+    color:rgb(133, 130, 130);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.prue:hover{
+    transition: 1s;
+    background:rgb(116, 226, 165);
+}
+#menu{
+    list-style-type: none;
+    margin:0;
+    text-align: center;
+    
+}
+#menu li{
+    display: inline;
+   
+}
+#menu li a{
+    
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    margin-right: 44px;
+    margin-left: 44px;
+    font-family: arial;
+    padding: 20px;   
+    display: block;
+}
+
+.circulo{
+  
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    border-radius: 50%;
+    
+    background-color: white;
+}
+.contacto{
+
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    text-align: center;
+    
+}
+.contacto li{
+ float: left;
+}
+
+.contacto li a{
+    color: rgb(253, 253, 253);
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 16px;
+    border-radius: 10%;
+    text-align: center;
+    font-family: arial;  
+    font-size: 20px;
+}
+
+#icons{
+    list-style-type: none;
+    cursor: pointer;
+    margin:0;
+    padding:0;
+    text-align: center;
+
+    
+}
+#icons li{
+    display: inline;
+    margin-right: 5px;
+}
+
+
+#icons li a{
+    color: rgb(39, 168, 130);
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 16px;  
+}
+
+.imag{
+    background: rgb(39, 168, 130);
+    padding: 15px;
+    
+}
+.fondosect{
+    background: rgb(39, 168, 130);
+    padding: 20px;
+
+}
+#fondo{
+    
+    width: 700px;
+    height: 400px;
+}
+.boton2{
+    text-decoration:none;
+    padding:5px;
+    background: #ffffff;
+    border: 3px solid #000000;
+    border-radius: 5%;
+    font-weight: 800;
+}
+.boton2:hover{
+    color: #ffffff;
+    background-color: #6dccaa;
+    transition: 1s;
+    border: 3px solid #035538;
+}
+
+#piedepaguina{
+
+    background-color: rgba(67, 68, 68, 0.404);
+    
+    padding-bottom: 30px;
+   }
+
+ 
+   #moverisq{
+    width: 100%;
+    text-align: right;
+    float: right;
+    padding: 10px;
+   }
+   #moverder{
+    float: left;
+    width: 100%;
+    text-align: left;
+    padding-top: 30px;
+    padding: 10px;
+    
+   }
+
+   /* Contenedor de slider*/
+ 
+   .contenedor-slider {
+    margin: auto;
+    width: 85% ;
+    max-width: 1000px;
+    max-height: 600px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .slider {
+    display: flex;
+    width: 300%;
+  }
+  
+  .slider__section {
+    width: 100%;
+  }
+  
+  .slider__img {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .btn-prev, .btn-next {
+    width: 40px;
+    height: 40px;
+    background: rgba(128, 248, 208, 0.7);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    line-height: 40px;  
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 50%;
+    font-family: monospace;
+    cursor: pointer;
+  }
+  
+  .btn-prev:hover, .btn-next:hover {
+    background: white;
+  }
+  
+  .btn-prev {
+    left: 10px;
+  }
+  
+  .btn-next {
+    right: 10px;
+  }
+  
+
+  /* Fin de Slider*/
+  #TextoCodigo {
+
+    background: #f0f0f0;
+    width: 500px;
+    border: 1px solid white;
+    padding: 30px;
+    margin: 100px auto;
+    border-radius: 6px;
+    max-width: 500px;
+    text-align: left-center-right;
+}
+#menu li{
+    float: left;
+}
+#menu li a{
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 16px;
+    
+    font-family: arial;  
+}
+
+registro {
+    position: relative;
+    
+    margin: 50px auto 100px auto;
+  }
+  
+reg{
+    background: rgb(39, 168, 130);
+    border-radius: 0px;
+}
+boton{
+    border-radius: 50%;
+    padding: 1%;
+    padding-bottom: 0%;
+    background: rgb(53, 185, 146);
+}
+
+#ezquinas{
+    background: rgb(39, 168, 130);
+    text-align: center;
+    padding: 10%;
+    
+}
+.diseños{
+    
+  font-size: 0.875em;
+  width: 300px;
+  height: 35px;
+  
+}
+
+.diseñolabel {
+    display: block;
+    margin: .5em 0 0 0;
+}
+button{
+    width: 100px;
+    height: 30px;
+}
+/*Estilos de la galeria*/
+.galerias{
+    background-color: rgb(39, 168, 130);
+   padding-right: 0;
+   padding-left: 0;
+}
+
+
+.galeria {
+    list-style: none;
+    display: block;
+    flex-wrap: wrap;
+    padding-left: 40px;
+    padding-right: 0;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+.galeria img {
+    width: 120px;
+    height: auto;
+    
+}
+.galeriaC{
+    list-style: none;
+    display: block;
+    flex-wrap: wrap;
+    padding-left: 40px;
+    padding-right: 0;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+.galeriaC img {
+    width: auto;
+    height: 125px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.galeriaD{
+    list-style: none;
+    display: block;
+    flex-wrap: wrap;
+    padding-left: 0;
+    padding-right: 50px;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+.galeriaD img {
+    width: 120px;
+    height: 125px;
+    padding-left: 0;
+    padding-right: 0;
+}
+/*Estilos del modal*/
+
+
+.modal {
+    display: none;
+}
+
+.modal:target {
+    
+    display: block;
+    position: fixed;
+    background: rgba(0,0,0,0.8);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.modal h3 {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.imagen {
+    width: 100%;
+    height: 50%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen a {
+    color: #fff;
+    font-size: 40px;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.imagen a:nth-child(2) {
+    margin: 0;
+    height: 100%;
+    flex-shrink: 2;
+}
+
+.imagen img {
+    width: 500px;
+    height: 100%;
+    max-width: 100%;
+    
+    border: 7px solid #fff;
+    box-sizing: border-box;
+}
+
+.cerrar {
+    display: block;
+    background: #fff;
+    width: 30px;
+    height: 30px;
+    margin: 15px auto;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000;
+    padding: 5px;
+    border-radius: 50%;
+    line-height: 25px;
+}
